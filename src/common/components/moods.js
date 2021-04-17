@@ -13,8 +13,8 @@ const Moods = () => {
             <a href="https://schoettner.rocks" alt="schoettner.rocks">
                 <div>Rock n' Roll</div>
             </a>
-            <a href="https://nerdy.schoettner.dev" alt="nerdy.schoettner.dev">
-                <div>Nerdy</div>
+            <a href="https://pure.schoettner.dev" alt="nerdy.schoettner.dev">
+                <div>Nerdy Feelings | Low Bandwidth</div>
             </a>
         </div>
     );
