@@ -16,11 +16,11 @@ const Header = () => {
     return (
         <header>
             <Content>
-                    <h1 className="title">
-                        <Link to="/">
-                            {data.site.siteMetadata.title}
-                        </Link>
-                    </h1>
+                <h1 className="title">
+                    <Link to="/">
+                        {data.site.siteMetadata.title}
+                    </Link>
+                </h1>
             </Content>
         </header>
     )
