@@ -3,7 +3,7 @@ import React from "react";
 const Moods = () => {
     return (
         <div className="sidebar_mood" >
-            <h3>Mood Selector</h3>
+            <h3>Theme</h3>
             <a href="https://schoettner.dev" alt="schoettner.dev">
                 <div>Software Developer</div>
             </a>
