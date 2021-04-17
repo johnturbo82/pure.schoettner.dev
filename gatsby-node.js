@@ -17,6 +17,8 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `)
 
+    const { allWpPost } = result.data
+
     const postTemplate = path.resolve(`./src/templates/post.js`)
     allWpPost.edges.forEach(edge => {
         createPage({
