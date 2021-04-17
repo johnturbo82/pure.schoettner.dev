@@ -33,19 +33,19 @@ const Footer = () => {
                 <p><a href={data.site.siteMetadata.mailto}>{data.site.siteMetadata.email}</a></p>
                 <p><a href={data.site.siteMetadata.mobileto}>{data.site.siteMetadata.mobile}</a></p>
                 <div className="social_icons">
-                    <a href="https://github.com/johnturbo82/" title="Github" className="github">
+                    <a style={{display: 'inline-block', height: '30px', width: '30px', backgroundColor: '#181717', padding: '2px', marginRight: '10px'}} href="https://github.com/johnturbo82/" title="Github" className="github">
                         <img src={Github} alt="Github" title="Github" />
                     </a>
-                    <a href="https://www.linkedin.com/in/oliver-schoettner/" title="LinkedIn" className="linkedin">
+                    <a style={{display: 'inline-block', height: '30px', width: '30px', backgroundColor: '#0A66C2', padding: '2px', marginRight: '10px'}} href="https://www.linkedin.com/in/oliver-schoettner/" title="LinkedIn" className="linkedin">
                         <img src={LinkedIn} alt="LinkedIn" title="LinkedIn" />
                     </a>
-                    <a href="https://twitter.com/johnturbo82" title="Twitter" className="twitter">
+                    <a style={{display: 'inline-block', height: '30px', width: '30px', backgroundColor: '#1DA1F2', padding: '2px', marginRight: '10px'}} href="https://twitter.com/johnturbo82" title="Twitter" className="twitter">
                         <img src={Twitter} alt="Twitter" title="Twitter" />
                     </a>
-                    <a href="https://www.instagram.com/johnturbo82/" title="Instagram" className="instagram">
+                    <a style={{display: 'inline-block', height: '30px', width: '30px', backgroundColor: '#E4405F', padding: '2px', marginRight: '10px'}} href="https://www.instagram.com/johnturbo82/" title="Instagram" className="instagram">
                         <img src={Instagram} alt="Instagram" title="Instagram" />
                     </a>
-                    <a href="https://www.facebook.com/johnturbo82/" title="Facebook" className="facebook">
+                    <a style={{display: 'inline-block', height: '30px', width: '30px', backgroundColor: '#1877F2', padding: '2px'}} href="https://www.facebook.com/johnturbo82/" title="Facebook" className="facebook">
                         <img src={Facebook} alt="Facebook" title="Facebook" />
                     </a>
                 </div>
