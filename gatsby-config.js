@@ -7,7 +7,7 @@ module.exports = {
     city: "Ingolstadt",
     email: "oliver@schoettner.dev",
     mailto: "mailto:me@johnturbo.com",
-    mobile: "0170 / TURBO ON",
+    mobile: "+49 170 / TURBO ON",
     mobileto: "tel:+491708872666",
     siteUrl: "https://pure.schoettner.dev",
     lang: 'de',
