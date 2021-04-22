@@ -1,7 +1,6 @@
 import React from 'react'
 
 import Layout from '../common/components/layout'
-import Passion from '../common/components/passion'
 
 const IndexPage = () => {
     return (
@@ -15,7 +14,6 @@ const IndexPage = () => {
                 <p>Sollte ich zu Hause auf der Couch sein, läuft Eishockey oder Fussball <em>(oder beides)</em> oder eine Netflixserie.</p>
                 <p>Diese Seite gibt's nur, weil viele Neugierige die Domain meiner Email-Adresse in den Browser tippen und dann enttäuscht sind, dass es keinen Inhalt gibt. Solltest Du auch auf diesem Wege zu mir gekommen sein: <em>Hallo!</em></p>
             </div>
-            <Passion />
         </Layout>
     )
 }
