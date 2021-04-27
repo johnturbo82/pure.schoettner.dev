@@ -1,7 +1,6 @@
 import React from 'react'
 
 import Layout from '../common/components/layout'
-import Passion from '../common/components/passion'
 
 const IndexPage = () => {
     return (
